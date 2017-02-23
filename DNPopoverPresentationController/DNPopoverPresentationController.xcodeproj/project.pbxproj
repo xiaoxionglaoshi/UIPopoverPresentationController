@@ -12,6 +12,8 @@
 		5144E8C41E5EE65A00DDB292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5144E8C21E5EE65A00DDB292 /* Main.storyboard */; };
 		5144E8C61E5EE65A00DDB292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5144E8C51E5EE65A00DDB292 /* Assets.xcassets */; };
 		5144E8C91E5EE65A00DDB292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5144E8C71E5EE65A00DDB292 /* LaunchScreen.storyboard */; };
+		5144E8D21E5EED3000DDB292 /* DNPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144E8D01E5EED3000DDB292 /* DNPopViewController.swift */; };
+		5144E8D31E5EED3000DDB292 /* DNPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144E8D11E5EED3000DDB292 /* DNPopViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5144E8C51E5EE65A00DDB292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5144E8C81E5EE65A00DDB292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5144E8CA1E5EE65A00DDB292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5144E8D01E5EED3000DDB292 /* DNPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNPopViewController.swift; sourceTree = "<group>"; };
+		5144E8D11E5EED3000DDB292 /* DNPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DNPopViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5144E8BE1E5EE65A00DDB292 /* AppDelegate.swift */,
 				5144E8C01E5EE65A00DDB292 /* ViewController.swift */,
+				5144E8D01E5EED3000DDB292 /* DNPopViewController.swift */,
+				5144E8D11E5EED3000DDB292 /* DNPopViewController.xib */,
 				5144E8C21E5EE65A00DDB292 /* Main.storyboard */,
 				5144E8C51E5EE65A00DDB292 /* Assets.xcassets */,
 				5144E8C71E5EE65A00DDB292 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5144E8D31E5EED3000DDB292 /* DNPopViewController.xib in Resources */,
 				5144E8C91E5EE65A00DDB292 /* LaunchScreen.storyboard in Resources */,
 				5144E8C61E5EE65A00DDB292 /* Assets.xcassets in Resources */,
 				5144E8C41E5EE65A00DDB292 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5144E8C11E5EE65A00DDB292 /* ViewController.swift in Sources */,
+				5144E8D21E5EED3000DDB292 /* DNPopViewController.swift in Sources */,
 				5144E8BF1E5EE65A00DDB292 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
